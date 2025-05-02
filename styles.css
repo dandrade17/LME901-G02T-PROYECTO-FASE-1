@@ -20,7 +20,7 @@ body {
 }
 
 .acerca {
-    background-image: url("imagenes/restaurante.jpg");
+    background-image: url("images/restaurante.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh; /* altura mínima de pantalla completa */
