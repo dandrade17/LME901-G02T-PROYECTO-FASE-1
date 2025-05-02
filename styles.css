@@ -5,3 +5,10 @@
 .social-icons{
     font-size: 1.5rem
 }
+
+.img-bienvenida{
+    background-image: url(images/fondoRestaurante.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
