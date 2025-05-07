@@ -14,19 +14,57 @@
       <h1 class="h3 d-flex align-items-center m-0"><img src="images/logo.png" alt="Logo" class="mr-2 logo"> El Rinconcito Salvadoreño</h1>
       <nav class="d-flex align-items-center">
         <ul class="nav">
-          <li class="nav-item"><a class="nav-link text-white h3 fw-bold" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link text-white h3 fw-bold" href="about-us.html">Acerca de</a></li>
-          <li class="nav-item"><a class="nav-link text-white h3 fw-bold" href="contact.html">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link text-white h3 fw-bold" href="creators.html">Creadores</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="about-us.html">Acerca de</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="contact.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="creators.html">Creadores</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="container my-5 flex-grow-1">
-    <!-- Aquí colocar el contenido específico de cada página -->
-    <h2>¡Bienvenido a nuestro restaurante!</h2>
-    <p>Disfruta de nuestros deliciosos platillos preparados con amor.</p>
+  <main class="container-fluid img-bienvenida text-center text-white flex-grow-1 py-5">
+
+    <h2 class="text-white">¡Bienvenido a nuestro restaurante!</h2>
+    <p class="text-white">Disfruta de nuestros deliciosos platillos preparados con amor.</p>
+
+    <div class="container py-5">
+      <h1 class="mb-5">Nuestros Menús</h1>
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+        <!-- Menu Desayunos -->
+        <div class="col">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="images/imgDesayuno.png" class="card-img-top rounded" alt="Menu Desayunos">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Desayunos</h5>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Menu Almuerzos -->
+        <div class="col">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="images/imgAlmuerzo.png" class="card-img-top rounded" alt="Menu Almuerzos">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Almuerzos</h5>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Menu Cenas -->
+        <div class="col">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="images/imgCena.png" class="card-img-top rounded" alt="Menu Cenas">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Cenas</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> 
   </main>
 
   <footer class="bg-dark text-white text-center p-3 border-top border-light">

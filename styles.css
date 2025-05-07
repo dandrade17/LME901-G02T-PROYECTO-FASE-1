@@ -6,6 +6,13 @@
     font-size: 1.5rem
 }
 
+.img-bienvenida{
+    background-image: url(images/fondoRestaurante.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -104,4 +111,3 @@ body {
     cursor: pointer;
     transition: all 300ms ease;
 }
-/* Media Queries */
