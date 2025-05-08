@@ -8,38 +8,72 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="d-flex flex-column min-vh-100">
-  <header class="bg-dark text-white p-3">
+  <header class="navbar navbar-dark bg-dark text-white p-3 fs-6">
     <div class="container d-flex justify-content-between align-items-center">
-      <h1 class="h3 d-flex align-items-center m-0"><img src="images/logo.png" alt="Logo" class="mr-2 logo"> El Rinconcito Salvadoreño</h1>
-      <nav class="d-flex align-items-center">
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link text-white h3 fw-bold" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link text-white h3 fw-bold" href="about-us.html">Acerca de</a></li>
-          <li class="nav-item"><a class="nav-link text-white h3 fw-bold" href="contact.html">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link text-white h3 fw-bold" href="creators.html">Creadores</a></li>
-        </ul>
-      </nav>
+      <a href="index.html" class="d-flex align-items-center text-white text-decoration-none m-0">
+        <img src="images/logo.png" alt="Logo" class="me-2 logo">
+        <span>El Rinconcito Salvadoreño</span>
+      </a>
+      <button class="navbar-toggler d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="nav d-none d-md-flex">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about-us.html">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="creators.html">Creadores</a>
+        </li>
+      </ul>
     </div>
   </header>
 
-  <main class="container my-5 flex-grow-1">
-    <!-- Aquí colocar el contenido específico de cada página -->
+  <nav class="collapse bg-dark d-md-none fs-6" id="navbarNav">
+    <div class="container">
+      <ul class="nav flex-column py-2">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about-us.html">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="creators.html">Creadores</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
     
+  <main class="container-fluid img-bienvenida text-center text-white flex-grow-1 py-5">
+    <div class="bg-dark bg-opacity-50 w-100 py-5 px-3 rounded-3">
+      <!-- Aquí colocar el contenido específico de cada página -->
+    
+    </div>
   </main>
 
   <footer class="bg-dark text-white text-center p-3 border-top border-light">
     <div>
-      <p>&copy; 2025 El Rinconcito Salvadoreño | elrinconcitosalvadoreño@outlook.es | Tel: (503) 1234-5678</p>
+      <p>&copy; 2025 El Rinconcito Salvadoreño - Todos los derechos reservados
+        <br>
+        E-mail: elrinconcitosalvadoreño@outlook.es | Tel: 2203-5678
+      </p>
       <div class="d-flex justify-content-center gap-3">
         <a href="#" class="text-white d-flex align-items-center">
           <i class="bi bi-facebook me-2 social-icon"></i> Facebook
         </a>
         <a href="#" class="text-white d-flex align-items-center">
           <i class="bi bi-instagram me-2 social-icon"></i> Instagram
-        </a>
-        <a href="#" class="text-white d-flex align-items-center">
-          <i class="bi bi-twitter-x me-2 social-icon"></i> Twitter
         </a>
         <a href="#" class="text-white d-flex align-items-center">
           <i class="bi bi-whatsapp me-2 social-icon"></i> WhatsApp
