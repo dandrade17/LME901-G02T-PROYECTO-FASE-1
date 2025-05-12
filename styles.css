@@ -27,7 +27,7 @@ body {
 }
 
 .acerca {
-    background-image: url("images/restaurante.jpg");
+    /* background-image: url("images/restaurante.jpg"); */
     background-size: cover;
     background-position: center;
     min-height: 100vh; /* altura mínima de pantalla completa */
@@ -42,13 +42,13 @@ body {
     z-index: 1;
 }
 
-.acerca::before {
+/* .acerca::before {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background-color: rgba(0, 0, 0, 0.5); /* oscurece la imagen */
     z-index: -1;
-}
+} */
 
 .acerca h2, .acerca p {
     position: relative;
