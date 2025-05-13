@@ -57,46 +57,36 @@
     
   <main class="container-fluid img-bienvenida text-center text-white flex-grow-1 py-0 px-0">
     <div class="bg-dark bg-opacity-75 w-100 py-5 px-3 rounded-3">
-      <!-- Aquí colocar el contenido específico de cada página -->
-      <section class="CONTÁCTANOS">
-        <center>
-            <h2>CONTÁCTANOS</h2>
-            <br>
-            <br>
-            <p> Email: </p>
-            <p>elrinconcitosalvadoreño@gmail.com</p>
-            <br>
-            <p>Teléfono:</p>
-            <p>(503) 1234-5678</p>
-            <br>
-            <p>WhatsApp:</p>
-            <p>+503 7123-4567 </p>
-            <br>
-            <p> Para todo tipo de preguntas, comentarios e inquitudes; por favor completa el formulario a continuacion</p>
-            <br>
-
-            <form class="row g-3" action="# autocomplete=off">
-                <input type="text" name="Nombre" placeholder="Ingresa tu Nombre" class="campo col">
-                <input type="email" name="email" placeholder="Ingresa tu Correo" class="campo col">
-                <br>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="mensaje" placeholder="Ingresa tu Mensaje"></textarea>
-                <button type="submit" name="Enviar" class="btn btn-success">Enviar mensaje</button>
-            </form>
-
-            </br>
-            <p> O si prefieres, puedes contactarnos a través de nuestras redes sociales:</p>
-            </br>
-            <div class="d-flex justify-content-center gap-3">
-                <a href="#" class="text-dark d-flex align-items-center">
-                    <i class="bi bi-facebook me-2 social-icon"></i> Facebook
-                </a>
-                <a href="#" class="text-dark d-flex align-items-center">
-                    <i class="bi bi-instagram me-2 social-icon"></i> Instagram
-                </a>
-                <a href="#" class="text-dark d-flex align-items-center">
-                    <i class="bi bi-twitter-x me-2 social-icon"></i> Twitter
-                </a>
-        </center>
+      <section class="py-5">
+        <div class="container d-flex align-items-center justify-content-center">
+          <div class="row w-100">
+            <div class="col-md-6 mb-4 text-start">
+              <h2 class="fw-bold mb-4">Contáctanos</h2>
+              <h5 class="fw-semibold">Contanos un poco sobre tu duda o evento</h5>
+              <p>Para todo tipo de preguntas, comentarios e inquietudes, por favor llamanos:</p>
+              <p><strong>Tel:</strong> +503 2203 - 5678</p>
+              <p><strong>WhatsApp:</strong> +503 7123 - 4567</p>
+              <p><strong>Email:</strong> elrinconcitosalvadoreño@outlook.es</p>
+            </div>
+            <div class="col-md-6">
+              <form class="text-start">
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre:</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo electrónico:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Dejanos tu correo electrónico">
+                </div>
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje:</label>
+                  <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe un mensaje que nos ayude a darte un mejor servicio"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success d-block mx-auto">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </main>
